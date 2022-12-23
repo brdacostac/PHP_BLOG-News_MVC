@@ -1,0 +1,29 @@
+
+INSERT INTO `news` (`id`, `title`, `content`, `date`, `image`) VALUES
+                                                                   (145678, 'Maroc finalement en demi final', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://cdn.unitycms.io/images/1Qiw384IKcF8genN2L-mCo.jpg?op=ocroped&val=1200,1200,1000,1000,0,0&sum=ikVhQ56T0o8'),
+                                                                   (134568, 'Nouvelle serie Mercredi Netflix', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://i.ytimg.com/vi/X7UoGHx7MDI/maxresdefault.jpg'),
+                                                                   (123456, 'Brésil vs Croatie', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://assets-fr.imgfoot.com/sans-titre-2022-12-09t180608-419.jpg'),
+                                                                   (156897, 'Brésil perd la chance de deven', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://sportbuzz.uol.com.br/media/uploads/2022/12/neymar-chora-com-eliminacao-do-brasil-na-copa-do-mundo.jpg'),
+                                                                   (162345, 'France peut être une troisiéme', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://static.cnews.fr/sites/default/files/football_equipe_de_france_coupe_du_monde_qatar_63613b551d915_0.jpg'),
+                                                                   (172345, 'Mbappe va réussir à battre les marrocains?', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1118x429:1120x427)/origin-imgresizer.eurosport.com/2022/04/03/3349464-68469548-2560-1440.jpg'),
+                                                                   (189564, 'Anya Taylor-Joy en Peaky Blind', 'Lorem ipsum dolor sit amet. Et quisquam aspernatur hic adipisci asperiores est libero quia qui itaque totam. Est tempora iusto est corrupti veritatis ut exercitationem quia 33 similique voluptate? 33 recusandae nobis nam ratione voluptatem aut perferendis quos sed doloribus impedit non autem facilis. Eos inventore distinctio aut omnis aperiam ut atque sunt.', '2022-12-20', 'https://www.denofgeek.com/wp-content/uploads/2022/02/Peaky-Blinders-Anya-Taylor-Joy.jpg?fit=1200%2C675');
+
+
+
+
+INSERT INTO `commentaire` (`id`, `content`, `date`, `newsid`, `userlogin`) VALUES
+                                                                                  (98, 'Salut ', '2022-12-23 20:40:58', 145678, 'bruno'),
+                                                                                  (99, 'Les amis', '2022-12-23 20:41:02', 145678, 'bruno'),
+                                                                                  (100, 'On va avoir 20 mec', '2022-12-23 20:41:23', 145678, 'othmane'),
+                                                                                  (101, 'Lets gooo', '2022-12-23 20:41:39', 145678, 'bruno'),
+                                                                                  (96, 'LETS GOO', '2022-12-23 20:26:45', 134568, 'bruno'),
+                                                                                  (86, 'SALUT', '2022-12-23 20:00:19', 134568, 'bruno');
+
+INSERT INTO `utilisateur` (`id`, `login`, `password`, `isAdmin`) VALUES
+                                                                     (312352, 'bruno', '$2y$10$6de8y0UGQi74XNFkRyhrh.BKvx.2meD8ggQFi44IYMyZbd.1HQF/y', 1),
+                                                                     (312356, 'othmane', '$2y$10$JRpogCNJNu0eSBr58nHEo.4c43EYzbPZjCD656ku/MeWwVqbunxTy', 0);
+
+/*
+ Mot de passe pas hash utilisateur "bruno" = 12345678
+ Mot de passe pas hash utilisateur "othmane" = 12345678
+ */
