@@ -32,6 +32,6 @@ Le projet est structuré selon l'architecture MVC, avec les éléments suivants:
 
 ## Licence
 
-Le code source de keepinfo est disponible en tant que logiciel libre sous la licence [MIT](https://github.com/brdacostac/keepinfo/blog/Projet/LICENSE).
+Le code source de keepinfo est disponible en tant que logiciel libre sous la licence [MIT](https://github.com/brdacostac/PHP_BLOG-News_MVC/LICENSE).
 
 
