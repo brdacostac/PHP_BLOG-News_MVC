@@ -25,7 +25,7 @@ Le projet est structuré selon l'architecture MVC, avec les éléments suivants:
 - **Contrôleur**: contient les classes qui gèrent la logique de l'application et qui interagissent avec les modèles et les vues. Ces classes sont situées dans le répertoire `Projet/controleur`.
 
 
-## Fait par:
+## Fait par
 
 - Bruno DA COSTA CUNHA
 - Othmane BENJELLOUN
